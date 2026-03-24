@@ -6,6 +6,6 @@
   "displayName": "Django",
   "publishedCode": "django-vb",
   "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-django/main/template-header.svg",
-  "description": "Deploy Django on Railway with Gunicorn and whitenoise-ready layout.",
+  "description": "Deploy Django on Railway with Gunicorn and SQLite defaults for quick starts.",
   "workspaceAutomation": false
 }
