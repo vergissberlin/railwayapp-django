@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vergissberlin/railway/main/docs/railway-template.schema.json",
+  "schemaVersion": 1,
+  "project": "railwayapp-django",
+  "repo": "vergissberlin/railwayapp-django",
+  "displayName": "Django",
+  "publishedCode": "django-vb",
+  "image": "https://raw.githubusercontent.com/vergissberlin/railwayapp-django/main/template-header.svg",
+  "description": "Deploy Django on Railway with Gunicorn and whitenoise-ready layout.",
+  "workspaceAutomation": false
+}
