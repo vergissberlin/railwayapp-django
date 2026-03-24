@@ -8,10 +8,10 @@ Minimal Django project with Gunicorn for Railway (SQLite by default).
 
 ## Environment
 
-| Variable | Description |
-|----------|-------------|
+| Variable            | Description                       |
+|---------------------|-----------------------------------|
 | `DJANGO_SECRET_KEY` | Set a strong secret in production |
-| `PORT` | Set by Railway |
+| `PORT`              | Set by Railway                    |
 
 For production databases, configure `DATABASE_URL` or Django `DATABASES` via env (not included in this minimal template).
 
