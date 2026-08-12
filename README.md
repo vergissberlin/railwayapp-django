@@ -6,6 +6,14 @@ Minimal Django project with Gunicorn for Railway (SQLite by default).
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django-vb?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
+## 🏗️ Architecture
+
+```mermaid
+flowchart LR
+    Client(["🌐 Client"]) -->|HTTPS| Domain["Railway Public Domain"]
+    Domain -->|"$PORT"| App["Container\npython:3.12-slim\n(gunicorn + Django, SQLite by default)"]
+```
+
 ## Environment
 
 | Variable            | Description                       |
