@@ -4,7 +4,7 @@
 
 Minimal Django project with Gunicorn for Railway (SQLite by default).
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django-vb?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## 🏗️ Architecture
 
