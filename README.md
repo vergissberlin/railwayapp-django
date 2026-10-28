@@ -30,6 +30,10 @@ docker build -t railwayapp-django .
 docker run --rm -p 8000:8000 -e PORT=8000 railwayapp-django
 ```
 
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/django-5a2401a8).
+
 <!-- footer -->
 ---
 
