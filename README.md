@@ -4,7 +4,7 @@
 
 Minimal Django project with Gunicorn for Railway (SQLite by default).
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django-vb?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/django?referralCode=2_sIT9&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ## 🏗️ Architecture
 
@@ -29,6 +29,10 @@ For production databases, configure `DATABASE_URL` or Django `DATABASES` via env
 docker build -t railwayapp-django .
 docker run --rm -p 8000:8000 -e PORT=8000 railwayapp-django
 ```
+
+## 💬 Support
+
+Questions or feedback? Visit the [template forum on Railway Central Station](https://station.railway.com/templates/django-5a2401a8).
 
 <!-- footer -->
 ---
